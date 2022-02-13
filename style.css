@@ -1,0 +1,56 @@
+@charset "utf-8";
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format ('woff'), url(cac_champagne.ttf) format('ttf');
+}
+html {
+	background-color: rgb(186, 136, 81);
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
+body {
+	background-color: rgb(138, 97, 51);
+}
+nav.horizontalNavigation a {
+	background-color: rgb(113, 86, 39);
+	font-family: Champagne, cursive;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	text-align: center;
+}
+nav.horizontalNavigation a:link, nav.horizontalNavigation a:visited {
+	color: rgb(239, 220,156);
+}
+nav.horizontalNavigation a:hover, nav.horizontalNavigation a:active {
+	background-color: rgb(71, 52, 29);
+}
+section#leftColumn p {
+	color: rgba(138,138,12,1.00);
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+body>footer {
+	font-size: 0.9em;
+	color: rgba(76,55,16,1.00);
+}
+body>footer h1 {
+	color: rgba(237,177,16,1.00);
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 1em 0 0.5em 1em;
+	letter-spacing: 0.2em;
+}
+nav.verticalNavigation ul {
+	margin-left: 1em;
+	line-height: 2em;
+}
+nav.verticalNavigation a:link, nav.verticalNavigation a:visited {
+	color: rgba(15,156,183,1.00);
+}
+nav.verticalNavigation a:hover, nav.verticalNavigation a:active {
+	text-decoration: underline;
+}
+section#contactInfo p{
+	margin: 1em;
+	line-height: 1.4em;
+	color: rgba(15,156,183,1.00);
+}
