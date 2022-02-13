@@ -1,1 +1,1 @@
-PandesiaChocolate
+PandaisiaChocolates
